@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Tushar Sharma - Excel & MIS Enthusiast | B.Tech (IT) Student specializing in data automation, Excel dashboards, and MIS solutions.">
+    <meta name="keywords"
+        content="Excel specialist, MIS, data automation, dashboard creation, data analysis, B.Tech IT">
+    <meta name="author" content="Tushar Sharma">
+    <title>Tushar Sharma - Excel & MIS Enthusiast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">Portfolio</div>
+                <div class="nav-menu" id="navMenu">
+                    <button class="nav-link" onclick="scrollToSection('home')">Home</button>
+                    <button class="nav-link" onclick="scrollToSection('about')">About</button>
+                    <button class="nav-link" onclick="scrollToSection('projects')">Projects</button>
+                    <button class="nav-link" onclick="scrollToSection('resume')">Resume</button>
+                    <button class="nav-link" onclick="scrollToSection('contact')">Contact</button>
+                </div>
+                <button class="nav-toggle" id="navToggle">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-circle hero-circle-1"></div>
+            <div class="hero-circle hero-circle-2"></div>
+        </div>
+
+        <div class="hero-container layout-split">
+            <!-- Left content -->
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    <span class="hero-name">Tushar</span>
+                    <span class="hero-surname">Sharma</span>
+                </h1>
+                <p class="hero-subtitle">Excel & MIS Enthusiast | B.Tech (IT) Student</p>
+                <p class="hero-description">Passionate about building dashboards, automating reports, and transforming
+                    raw data into smart decisions.</p>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('projects')">View My Projects</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('resume')">Download Resume</button>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://github.com/tushar-4758" class="social-link" aria-label="GitHub"><i data-lucide="github"></i></a>
+                    <a href="https://linkedin.com/in/4758-tushar" class="social-link" target="_blank"><i
+                            data-lucide="linkedin"></i></a>
+                    <a href="mailto:tushar4758@gmail.com" class="social-link" aria-label="Email"><i
+                            data-lucide="mail"></i></a>
+                </div>
+            </div>
+
+            <!-- Right image -->
+            <div class="hero-right">
+                <img src="photo.png" alt="Tushar Sharma Profile" />
+            </div>
+
+
+            <button class="scroll-down" onclick="scrollToSection('about')">
+                <i data-lucide="arrow-down"></i>
+            </button>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">B.Tech (IT) student with expertise in Excel tools, data automation, and MIS
+                    development.Consistently maintaining a strong academic record with a CGPA of 8.3 at Dr. A.P.J. Abdul
+                    Kalam Technical University.</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an enthusiastic Information Technology student with a passion for Excel-driven dashboards,
+                        automation tools, and turning data into actionable insights. I simplify complex datasets using
+                        advanced spreadsheet functions and deliver practical business solutions.</p>
+
+                    <p>Pursuing my B.Tech in Information Technology from AKTU, I apply classroom learning to real-world
+                        data problems. I’ve led workflow automation projects during university events, managing data for
+                        over 5500 participants and streamlining reporting tasks.</p>
+
+                    <p>I'm seeking internship roles in Excel Reporting, Data Entry, or MIS, where I can apply my
+                        analytical thinking, Excel expertise, and attention to detail. My goal is to contribute to
+                        data-driven decision-making and continuously learn from industry professionals.</p>
+                </div>
+
+                <div class="skills-section">
+                    <h3 class="skills-title">Technical Expertise</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Spreadsheet Automation (Google Sheets, Excel)</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%; background-color: #10b981;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Data Analysis & Visualization</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%; background-color: #3b82f6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Dashboard Creation & Reporting</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%; background-color: #8b5cf6;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Basic Programming (Python, Java, App-Script)</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%; background-color: #f97316;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Data Structuring & Cleansing</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%; background-color: #6366f1;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Spreadsheet Mastery</h3>
+                        <p>Advanced proficiency in Spreadsheet functions, pivot tables, macros, and dashboard creation
+                        </p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i data-lucide="database"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Data Automation</h3>
+                        <p>Streamlining data workflows and creating automated reporting systems</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Analytics Focus</h3>
+                        <p>Converting raw data into meaningful insights and actionable business intelligence</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i data-lucide="calculator"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Financial Analysis</h3>
+                        <p>Basic financial modeling and investment analysis using Spreadsheet-based tools</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i data-lucide="code"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Technical Skills</h3>
+                        <p>Programming knowledge in C, Python, Java, and Kotlin for data solutions</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Event Management</h3>
+                        <p>Managing data workflows for 5500+ participants in technical events and workshops</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Spreadsheet Projects</h2>
+                <p class="section-subtitle">A collection of Excel-based solutions demonstrating advanced data analysis,
+                    automation, and dashboard creation capabilities.</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-lucide="bar-chart-3"></i>
+                        </div>
+                        <h3 class="project-title">Sales Dashboard</h3>
+                    </div>
+                    <p class="project-description">Interactive sales dashboard using Pivot Tables and VLOOKUP with
+                        charts, KPIs, slicers, and trend analysis for monthly and product-wise insights.</p>
+
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Monthly Sales Analysis</li>
+                            <li>Product Performance</li>
+                            <li>Visual Charts</li>
+                            <li>KPI Tracking</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Spreadsheet</span>
+                        <span class="tech-tag">Pivot Tables</span>
+                        <span class="tech-tag">VLOOKUP</span>
+                        <span class="tech-tag">Charts</span>
+                        <span class="tech-tag">Daily Updation</span>
+                    </div>
+
+                    <button class="project-btn" disabled>
+                        <!-- See Tutorial Button -->
+                        <a href="https://your-tutorial-link.com" class="btn btn-secondary" target="_blank">
+                            <i data-lucide="book-open"></i> See Tutorial
+                        </a>
+
+                        <!-- View Project Button -->
+                        <a href="https://your-google-sheet-link.com" class="btn btn-primary" target="_blank">
+                            <i data-lucide="external-link"></i> View Sheet
+                        </a>
+
+                    </button>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-lucide="calendar"></i>
+                        </div>
+                        <h3 class="project-title">Attendance Tracker</h3>
+                    </div>
+                    <p class="project-description">Comprehensive attendance tracking system with automated formulas,
+                        COUNTIF functions, data validation and formatting indicators.</p>
+
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Daily Tracking</li>
+                            <li>Monthly Reports</li>
+                            <li>Automated Calculations</li>
+
+                            <li>Alert mail</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">COUNTIF</span>
+                        <span class="tech-tag">Data Validation</span>
+                        <span class="tech-tag">Conditional Formatting</span>
+                    </div>
+                    <button class="project-btn" disabled>
+                        <!-- See Tutorial Button -->
+                        <a href="https://your-tutorial-link.com" class="btn btn-secondary" target="_blank">
+                            <i data-lucide="book-open"></i> See Tutorial
+                        </a>
+
+                        <!-- View Project Button -->
+                        <a href="https://your-google-sheet-link.com" class="btn btn-primary" target="_blank">
+                            <i data-lucide="external-link"></i> View Sheet
+                        </a>
+
+                    </button>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-lucide="package"></i>
+                        </div>
+                        <h3 class="project-title">Inventory Management</h3>
+                    </div>
+                    <p class="project-description">Smart inventory monitoring system with stock level tracking, restock
+                        alerts and purchase history using structured tables and logic-based formulas.</p>
+
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Stock Monitoring</li>
+                            <li>Restock Alerts</li>
+                            <li>Purchase History</li>
+                            <li>Automated Reports</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">Structured Tables</span>
+                        <span class="tech-tag">Logic Formulas</span>
+                        <span class="tech-tag">Alerts</span>
+                    </div>
+
+                    <button class="project-btn" disabled>
+                        <!-- See Tutorial Button -->
+                        <a href="https://your-tutorial-link.com" class="btn btn-secondary" target="_blank">
+                            <i data-lucide="book-open"></i> See Tutorial
+                        </a>
+
+                        <!-- View Project Button -->
+                        <a href="https://your-google-sheet-link.com" class="btn btn-primary" target="_blank">
+                            <i data-lucide="external-link"></i> View Sheet
+                        </a>
+
+                    </button>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-lucide="credit-card"></i>
+                        </div>
+                        <h3 class="project-title">Automated Billing System</h3>
+                    </div>
+                    <p class="project-description"> Developed an Spreadsheet-based billing system that generates
+                        invoices, calculates GST, maintains stock records, and converts bills into downloadable PDFs and
+                        stored in Google-Drive.</p>
+
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Sentiment Analysis</li>
+                            <li>Performance Metrics</li>
+                            <li>Visual Reports</li>
+                            <li>Trend Analysis</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Spreadsheet</span>
+                        <span class="tech-tag">Pivot Tables</span>
+                        <span class="tech-tag">App-Script</span>
+                        <span class="tech-tag">Google-Drive</span>
+                        <span class="tech-tag">Auto PDF Generation</span>
+                    </div>
+
+                    <button class="project-btn" disabled>
+                        <!-- See Tutorial Button -->
+                        <a href="https://your-tutorial-link.com" class="btn btn-secondary" target="_blank">
+                            <i data-lucide="book-open"></i> See Tutorial
+                        </a>
+
+                        <!-- View Project Button -->
+                        <a href="https://your-google-sheet-link.com" class="btn btn-primary" target="_blank">
+                            <i data-lucide="external-link"></i> View Sheet
+                        </a>
+
+                    </button>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-lucide="dollar-sign"></i>
+                        </div>
+                        <h3 class="project-title">Expense Tracker</h3>
+                    </div>
+                    <p class="project-description">Comprehensive expense tracking solution for daily, weekly, and
+                        monthly categorized expenses using SUMIF, conditional formatting, and data validation for
+                        categories.</p>
+
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Multi-period Tracking</li>
+                            <li>Category Management</li>
+                            <li>Dynamic Visualization</li>
+                            <li>Budget Analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">SUMIF</span>
+                        <span class="tech-tag">Conditional Formatting</span>
+                        <span class="tech-tag">Dynamic Charts</span>
+                    </div>
+
+                    <button class="project-btn" disabled>
+                        <!-- See Tutorial Button -->
+                        <a href="https://your-tutorial-link.com" class="btn btn-secondary" target="_blank">
+                            <i data-lucide="book-open"></i> See Tutorial
+                        </a>
+
+                        <!-- View Project Button -->
+                        <a href="https://your-google-sheet-link.com" class="btn btn-primary" target="_blank">
+                            <i data-lucide="external-link"></i> View Sheet
+                        </a>
+
+                    </button>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i data-lucide="line-chart"></i>
+                        </div>
+                        <h3 class="project-title">Stock Indication System</h3>
+                    </div>
+                    <p class="project-description">A Google Sheets-based tool that recommends stocks to buy for the next
+                        day based on volume surges, support-resistance, and strength indicators using Google Finance
+                        data.</p>
+
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Volume & Momentum Filtering</li>
+
+                            <li>Strength Indicators</li>
+                            <li>Automated Stock Recommendations</li>
+                            <li>Integrated Google Finance API</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">SUMIF</span>
+                        <span class="tech-tag">Conditional Formatting</span>
+                        <span class="tech-tag">Dynamic Charts</span>
+                    </div>
+
+                    <button class="project-btn" disabled>
+                        <!-- See Tutorial Button -->
+                        <a href="https://your-tutorial-link.com" class="btn btn-secondary" target="_blank">
+                            <i data-lucide="book-open"></i> See Tutorial
+                        </a>
+
+                        <!-- View Project Button -->
+                        <a href="https://your-google-sheet-link.com" class="btn btn-primary" target="_blank">
+                            <i data-lucide="external-link"></i> View Sheet
+                        </a>
+
+                    </button>
+                </div>
+            </div>
+
+            <div class="projects-note">
+                <p>All project tutorials and source files are now available.</p>
+                <p class="note-small">Watch the videos and explore the projects in detail.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resume</h2>
+                <p class="section-subtitle">Download my complete resume with education, skills, certifications, and
+                    contact information.</p>
+
+                <a href="resume.pdf" class="btn btn-secondary" download target="_blank">Download Resume</a>
+
+
+            </div>
+
+            <div class="resume-content">
+                <div class="resume-left">
+                    <div class="resume-section">
+                        <div class="resume-header">
+                            <div class="resume-icon">
+                                <i data-lucide="graduation-cap"></i>
+                            </div>
+                            <h3>Education</h3>
+                        </div>
+                        <div class="education-card">
+                            <h4>Bachelor of Technology in Information Technology Engineering</h4>
+                            <p class="institution">Dr. APJ Abdul Kalam Technical University (AKTU)</p>
+                            <div class="education-details">
+                                <span>September 2023 - Ongoing</span>
+                                <span>•</span>
+                                <span>Ghaziabad, India</span>
+                            </div>
+                            <div class="cgpa-badge">CGPA: 8.3</div>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <div class="resume-header">
+                            <div class="resume-icon">
+                                <i data-lucide="award"></i>
+                            </div>
+                            <h3>Certifications</h3>
+                        </div>
+                        <div class="certification-card">
+                            <h4>Introduction to MS Excel</h4>
+                            <p class="cert-date">May 2025</p>
+                            <p class="cert-description">Gained proficiency in Excel basics, including formulas,
+                                functions, charts, data formatting, Data Validation, Dashboard and Macros.</p>
+                                
+                                
+                        </div>
+                        
+                    </div>
+                    
+<div class="project-btn-group">
+                            <a href="https://your-tutorial-link.com" class="project-btn" target="_blank">
+                                <i data-lucide="book-open"></i> See Certificate
+                            </a>
+                        </div>
+                </div>
+
+                <div class="resume-right">
+                    <div class="resume-section">
+                        <div class="resume-header">
+                            <div class="resume-icon">
+                                <i data-lucide="briefcase"></i>
+                            </div>
+                            <h3>Experience</h3>
+                        </div>
+
+
+
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h4>UI/Graphics Designer and Data Manager</h4>
+                                    <p class="company">Cloud Computing Cell</p>
+                                </div>
+                                <span class="work-type">On-site</span>
+                            </div>
+                            <p class="duration">December 2024 </p>
+                            <p class="description">Led design efforts for technical events and managed data workflows
+                                for 1000+ participants, including registrations, feedback, and analytics.</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <div class="resume-header">
+                            <div class="resume-icon">
+                                <i data-lucide="code"></i>
+                            </div>
+                            <h3>Technical Skills</h3>
+                        </div>
+
+                        <div class="skills-card">
+                            <div class="skill-category">
+                                <h4>Programming Languages</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">C</span>
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">Java</span>
+                                    <span class="skill-tag">Kotlin</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-category">
+                                <h4>Additional Skills</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Google Sheet</span>
+                                    <span class="skill-tag">MS Excel</span>
+                                    <span class="skill-tag">MS Office</span>
+                                    <span class="skill-tag">Data Entry</span>
+                                    <span class="skill-tag">Data Analysis</span>
+                                    <span class="skill-tag">Dashboard Creation</span>
+                                    <span class="skill-tag">Sheet Automation</span>
+                                    <span class="skill-tag">Data Management</span>
+                                    <span class="skill-tag">Data Validation</span>
+                                    <span class="skill-tag">Financial Modeling (Basics)</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Interested in internship opportunities or collaboration? I'd love to hear
+                    from you. Let's discuss how I can contribute to your data and Excel projects.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Let's Connect</h3>
+                        <p>I'm actively seeking internship opportunities in Data Entry, Excel Reporting, and MIS roles.
+                            Whether you have a project in mind or want to discuss potential opportunities, I'm always
+                            eager to learn and contribute.</p>
+                    </div>
+
+                    <div class="contact-details">
+                        <h4>Contact Information</h4>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Email</h5>
+                                <a href="mailto:tushar4758@gmail.com">tushar4758@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Phone</h5>
+                                <a href="tel:+919359251763">+91 9359251763</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Location</h5>
+                                <span>Ghaziabad, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Social Links</h4>
+                        <div class="contact-item">
+                            <div class="contact-icon social">
+                                <i data-lucide="linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>LinkedIn</h5>
+                                <a href="https://linkedin.com/in/4758-tushar">linkedin.com/in/4758-tushar</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon social">
+                                <i data-lucide="github"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>GitHub</h5>
+                                <a href="https://github.com/tushar-4758">https://github.com/tushar-4758</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h3>Send a Message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject"
+                                placeholder="Internship Opportunity / Project Discussion" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6"
+                                placeholder="Tell me about the opportunity or project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-btn">
+                            <i data-lucide="send"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Tushar Sharma</h3>
+                    <p>Excel & MIS Enthusiast | B.Tech (IT) Student specializing in data automation and Excel-based
+                        solutions.</p>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://github.com/tushar-4758" class="footer-social-link" aria-label="GitHub">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/4758-tushar" class="footer-social-link" aria-label="LinkedIn">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="mailto:tushar4758@gmail.com" class="footer-social-link" aria-label="Email">
+                        <i data-lucide="mail"></i>
+                    </a>
+                    <a href="tel:+919359251763" class="footer-social-link" aria-label="Phone">
+                        <i data-lucide="phone"></i>
+                    </a>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>Made with <i data-lucide="heart" class="heart-icon"></i> by Tushar Sharma • © 2024 All rights
+                        reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
