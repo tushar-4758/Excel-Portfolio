@@ -1,4 +1,6 @@
 // Initialize Lucide icons
+import { inject } from "@vercel/analytics"
+
 lucide.createIcons();
 
 // Navigation functionality
